@@ -1,4 +1,4 @@
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule, } from '@angular/router';
 
 import { ContactComponent } from './components/contact/contact.component';
@@ -18,4 +18,4 @@ const routes: Routes = [
         RouterModule
     ]
 })
-export class ContactRoutingModule {}
+export class ContactRoutingModule { }

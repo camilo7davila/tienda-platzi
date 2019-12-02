@@ -13,7 +13,7 @@ export class ProductEditComponent implements OnInit {
   id: string;
 
   constructor(private formBuilter: FormBuilder, private productService: ProductsService,
-              private router: Router, private activeRoute: ActivatedRoute) {
+    private router: Router, private activeRoute: ActivatedRoute) {
     this.buildForm();
   }
 
